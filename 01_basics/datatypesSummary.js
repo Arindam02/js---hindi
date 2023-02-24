@@ -37,3 +37,35 @@ let myObj = {
 let myFunction = function(){
     console.log("hello World");                             // typeof(function) = function
 }
+
+
+
+
+//********************************************************************************************************************************************** */
+
+// Primitive dataType goes in stack memory; And it provides copy of that element.
+// So when we change something (through assigned variable) it gets changed in copy of element  not in original.
+
+let name1 = "Arindam";
+let name2 = name1;
+name2 = "Subrata";
+
+console.log(name1);
+console.log(name2);
+
+
+
+//Non primitive dataType get stored in HEAP memory. 
+// And it gives reference value to assigned elements. 
+// So when assigned variable makes changes it changes the both values(original and assigned one. 
+
+let userOne ={
+    name : "Adi",
+    email: "adi@google.com"
+}
+
+let userTwo = userOne;
+userTwo.email = "adi@amazon.com"
+
+console.log(userOne);
+console.log(userTwo);
