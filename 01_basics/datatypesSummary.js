@@ -2,6 +2,8 @@
 //                             1) Primitive.
 //                             2) Reference or Non Primitive.
 
+// JavaScript is a dynamically typed language. Because data type will automatically assigned at the time of compilation or code execution.
+
 
 // Primitive Data Types Are 7 Types :- String , Number , Boolean , Null , Undefined , Symbol , BigInt
 
