@@ -10,7 +10,7 @@
 
 console.log(null > 0);
 console.log(null == 0);
-console.log(null >= 0);
+console.log(null >= 0);       //---> In this case Js assign 0 in null position.
 
 console.log(undefined == 0);
 console.log(undefined > 0);
