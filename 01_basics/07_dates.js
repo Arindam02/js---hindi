@@ -29,5 +29,5 @@ let myTimeStamp = Date.now()
 
 let newTime = new Date();
 console.log(newTime.toLocaleString("default" , {
-    weekday:"long",
+    weekday:"long",                                                       //---> saturday
 }));
